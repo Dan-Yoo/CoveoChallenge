@@ -20,5 +20,4 @@ it("should call callback after a specific amount of time from last input value p
     />);
 
   const input = component.root.findByType("input");
-  console.log(input.props.onChange({target: {value: "term"}}));
 })
