@@ -1,0 +1,6 @@
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  min-height: 90vh;
+}

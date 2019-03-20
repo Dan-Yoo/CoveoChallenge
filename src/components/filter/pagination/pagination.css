@@ -1,0 +1,14 @@
+.pagination-container {
+  width: 100%;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max-page {
+  color: grey;
+}

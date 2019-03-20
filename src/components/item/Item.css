@@ -1,0 +1,100 @@
+.item-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.7);
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: white;
+}
+
+.item-modal-content {
+  display: flex;
+}
+
+.item-modal-image {
+  max-width: 300px;
+  flex: 1;
+}
+
+.item-modal-description {
+  flex: 1;
+}
+
+.close-button-container {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button {
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.item-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.item-container.toggle {
+  width: 100%;
+}
+
+
+.item-container.toggle .item-image {
+  width: 25%;
+}
+
+.item-subcontainer {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.item-container.toggle .item-subcontainer {
+  display: flex;
+}
+
+.item-subcontainer:hover {
+  border-color: #6698d6;
+  box-shadow: 0 0 10px #6698d6;
+}
+
+.item-image, img {
+  width: 100%;
+}
+
+.item-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .item-container { width: 50% }
+}
+
+@media (min-width: 960px) {
+  .item-container { width: 33% }
+}
+
+@media (min-width: 1260px) {
+  .item-container { width: 25% }
+}
+
+@media (min-width: 1600px) {
+  .item-container { width: 16.5% }
+}
