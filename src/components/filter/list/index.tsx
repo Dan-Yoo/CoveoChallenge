@@ -32,7 +32,6 @@ class FilterList extends Component<FilterListProps, any> {
       <div className="filter-list" style={filterListStyle}>
         <div className="filter-container">
           <AutoInput searchTerm={this.props.searchTerm} callback={this.props.handleFilterChange} />
-          {/* <input className="search-input" type="text" onChange={(e: any) => this.props.handleFilterChange("searchTerm", e.target.value)} value={this.props.searchTerm}/> */}
           <div className="price-range-container">
             <div>Price Range</div>
             <select value={this.props.priceRange} onChange={(e: any) => this.props.handlePriceRangeChange(e.target.value)}>
@@ -63,6 +62,7 @@ class FilterList extends Component<FilterListProps, any> {
             </div>
           </div>
         </div>
+        <br></br>
         <Pagination 
           totalCount={this.props.totalCount}
           numberOfResults={this.props.numberOfResults} 

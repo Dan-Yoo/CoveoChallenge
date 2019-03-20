@@ -60,7 +60,6 @@ class App extends Component {
   }
 
   async getResults() {
-    console.log("performing serach");
     const data: any = await search(this.state.searchTerm, this.state.priceRange, {
       numberOfResults: this.state.numberOfResults,
       firstResult: this.state.firstResult,
@@ -90,7 +89,7 @@ class App extends Component {
             handlePriceRangeChange={this.handlePriceRangeChange}
             handleFilterChange={this.handleFilterChange} />
           <ItemList items={this.state.items} />
-
+          <br></br>
           <FilterList
             reverse={true} 
             searchTerm={this.state.searchTerm}

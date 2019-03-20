@@ -26,4 +26,4 @@ const generateUrlParams = (params?: apiGETParams): string => {
   return urlParams;
 }
 
-export {search};
+export {search, generateUrlParams};
