@@ -4,3 +4,24 @@
   align-items: stretch;
   min-height: 90vh;
 }
+
+.item-container-ref {
+  width: 100%;
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  .item-container-ref { width: 50% }
+}
+
+@media (min-width: 960px) {
+  .item-container-ref { width: 33% }
+}
+
+@media (min-width: 1260px) {
+  .item-container-ref { width: 25% }
+}
+
+@media (min-width: 1600px) {
+  .item-container-ref { width: 16.5% }
+}

@@ -14,7 +14,7 @@
   flex-direction: column;
   padding: 2rem;
   position: relative;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
   max-width: 800px;
   background-color: white;
 }
@@ -46,16 +46,7 @@
 
 .item-container {
   width: 100%;
-  padding: 10px;
-}
-
-.item-container.toggle {
-  width: 100%;
-}
-
-
-.item-container.toggle .item-image {
-  width: 25%;
+  height: 100%;
 }
 
 .item-subcontainer {
@@ -82,20 +73,4 @@
 .item-title {
   text-align: center;
   font-weight: bold;
-}
-
-@media (min-width: 600px) {
-  .item-container { width: 50% }
-}
-
-@media (min-width: 960px) {
-  .item-container { width: 33% }
-}
-
-@media (min-width: 1260px) {
-  .item-container { width: 25% }
-}
-
-@media (min-width: 1600px) {
-  .item-container { width: 16.5% }
 }
