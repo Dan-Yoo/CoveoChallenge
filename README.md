@@ -1,5 +1,8 @@
 # Coveo Challenge
 
+DEMO: https://coveo-challenge.firebaseapp.com/  
+
+
 This project was done as a submission to the coveo frontend technical challenge.  
 [Here](https://github.com/coveo/frontend-coding-challenge)  
   
