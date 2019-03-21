@@ -10,9 +10,10 @@ This project was done as a submission to the coveo frontend technical challenge.
 
 ## Personal Comments
 I decided to not use any UI library due to the dependencies and also because it was a frontend challenge.  
+
+I added tests to a few components.
   
 I could improve on the css of the project but overall, the architecture and code quality is more important and therefore decided to not spend too much time on making the project look aesthetically perfect.    
-
 
 
 ## Learn More
